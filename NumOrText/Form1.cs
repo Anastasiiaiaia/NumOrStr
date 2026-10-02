@@ -11,11 +11,11 @@ namespace NumOrText
         {
             if (double.TryParse(textBox1.Text, out double number))
             {
-                MessageBox.Show("Значення є числовим");
+                MessageBox.Show("Р—РЅР°С‡РµРЅРЅСЏ С” С‡РёСЃР»РѕРІРёРј");
             }
             else
             {
-                MessageBox.Show("Значення є рядковим");
+                MessageBox.Show("Р—РЅР°С‡РµРЅРЅСЏ С” СЂСЏРґРєРѕРІРёРј");
             }
         }
     }
